@@ -8,7 +8,7 @@ def initial_phonebook():
     for i in range(rows):
         print("\nEnter contact %d details in the following order (ONLY):" % (i+1))
         print("NOTE: * indicates mandatory fields")
-        print("....................................................................")
+        print("..................................")
         temp = []
         for j in range(cols):
             if j == 0:
