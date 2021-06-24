@@ -44,9 +44,9 @@ def initial_phonebook():
     return phone_book
   
 def menu():
-    print("********************************************************************")
+    print("***************************************")
     print("\t\t\tSMARTPHONE DIRECTORY", flush=False)
-    print("********************************************************************")
+    print("***************************************")
     print("\tYou can now perform the following operations on this phonebook\n")
     print("1. Add a new contact")
     print("2. Remove an existing contact")
@@ -174,16 +174,16 @@ def display_all(pb):
             print(pb[i])
   
 def thanks():
-    print("********************************************************************")
+    print("*******************************************")
     print("Thank you for using our Smartphone directory system.")
     print("Please visit again!")
-    print("********************************************************************")
+    print("*******************************************")
     sys.exit("Goodbye, have a nice day ahead!")
   
-print("....................................................................")
+print("................................................")
 print("Hello dear user, welcome to our smartphone directory system")
 print("You may now proceed to explore this directory")
-print("....................................................................")
+print("................................................")
 
   
 ch = 1
